@@ -9,7 +9,7 @@ const API_KEY = OPENWEATHER_API_KEY;
 
 function App() {
   const [weather, setWeather] = useState(null);
-  const [city, setCity] = useState("Polanco");
+  const [city, setCity] = useState("Manukan");
   const [searchValue, setSearchValue] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
