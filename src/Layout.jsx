@@ -1,5 +1,3 @@
-// src/Layout.jsx
-/* eslint-disable react/prop-types */
 import bgImage from "./assets/bg.jpg";
 import Sidebar from "./components/Sidebar";
 
