@@ -1,6 +1,6 @@
 import bgImage from "./assets/bg.jpg";
 import Sidebar from "./components/Sidebar";
-
+import logo from "/logo.webp";
 function Layout({
   searchBar,
   left,
@@ -38,17 +38,27 @@ function Layout({
     >
       <div className="absolute inset-0 bg-slate-950/70" />
 
-      {/* TITLE */}
-      <h2
-        className="
-          relative z-10 mb-4
-          text-2xl md:text-3xl font-semibold
-          text-slate-100
-          drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)]
-        "
-      >
-        Weather App
-      </h2>
+      {/* TITLE + LOGO */}
+      <div className="relative z-10 mb-4 flex items-center gap-3">
+        <img
+          src={logo}
+          alt="Weather App logo"
+          className="
+    w-12 h-12 md:w-20 md:h-20   /* 👈 bigger on all screens */
+    object-contain
+    drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]
+  "
+        />
+        <h2
+          className="
+      text-2xl md:text-3xl font-semibold
+      text-slate-100
+      drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)]
+    "
+        >
+          Weather App
+        </h2>
+      </div>
 
       {/* MAIN CARD */}
       <div
