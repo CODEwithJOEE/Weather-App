@@ -1,6 +1,3 @@
-// src/components/Sidebar.jsx
-/* eslint-disable react/prop-types */
-
 function Sidebar({
   theme,
   onThemeModeChange,

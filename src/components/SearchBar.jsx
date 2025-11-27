@@ -1,6 +1,3 @@
-// src/components/SearchBar.jsx
-/* eslint-disable react/prop-types */
-
 function SearchBar({ value, onChange, onSubmit }) {
   return (
     <form onSubmit={onSubmit}>

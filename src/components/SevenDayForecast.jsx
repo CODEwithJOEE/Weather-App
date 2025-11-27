@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { WEATHER_IMAGES } from "../utils/weatherImages";
 
 function formatTemp(celsius, units) {
